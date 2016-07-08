@@ -1,0 +1,918 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="contrib\hiredis\Hiredis.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="contrib\hiredis\mrediscli.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="contrib\thrift\ThriftConnection.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="contrib\thrift\ThriftServer.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="contrib\thrift\tests\echo\EchoServer.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="contrib\thrift\tests\ping\PingServer.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="examples\ace\logging\client.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="examples\ace\logging\server.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="examples\ace\ttcp\common.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="examples\ace\ttcp\main.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="examples\ace\ttcp\ttcp.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="examples\ace\ttcp\ttcp_blocking.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="examples\asio\chat\client.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="examples\asio\chat\loadtest.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="examples\asio\chat\server.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="examples\asio\chat\server_threaded.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="examples\asio\chat\server_threaded_efficient.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="examples\asio\chat\server_threaded_highperformance.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="examples\asio\tutorial\timer2\timer.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="examples\asio\tutorial\timer3\timer.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="examples\asio\tutorial\timer4\timer.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="examples\asio\tutorial\timer5\timer.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="examples\asio\tutorial\timer6\timer.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="examples\cdns\dns.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="examples\cdns\Resolver.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="examples\curl\Curl.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="examples\curl\download.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="examples\curl\mcurl.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="examples\fastcgi\fastcgi.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="examples\fastcgi\fastcgi_test.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="examples\filetransfer\download.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="examples\filetransfer\download2.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="examples\filetransfer\download3.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="examples\hub\codec.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="examples\hub\hub.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="examples\hub\pub.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="examples\hub\pubsub.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="examples\hub\sub.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="examples\idleconnection\echo.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="examples\idleconnection\main.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="examples\idleconnection\sortedlist.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="examples\maxconnection\echo.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="examples\maxconnection\main.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="examples\memcached\client\bench.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="examples\memcached\server\footprint_test.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="examples\memcached\server\Item.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="examples\memcached\server\MemcacheServer.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="examples\memcached\server\server.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="examples\memcached\server\Session.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="examples\multiplexer\demux.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="examples\multiplexer\multiplexer.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="examples\multiplexer\multiplexer_simple.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="examples\netty\discard\client.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="examples\netty\discard\server.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="examples\netty\echo\client.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="examples\netty\echo\server.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="examples\netty\echo\server2.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="examples\netty\uptime\uptime.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="examples\pingpong\bench.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="examples\pingpong\client.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="examples\pingpong\server.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="examples\procmon\dummyload.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="examples\procmon\plot.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="examples\procmon\plot_test.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="examples\procmon\procmon.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="examples\protobuf\codec\client.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="examples\protobuf\codec\codec.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="examples\protobuf\codec\codec_test.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="examples\protobuf\codec\dispatcher_lite_test.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="examples\protobuf\codec\dispatcher_test.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="examples\protobuf\codec\server.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="examples\protobuf\resolver\client.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="examples\protobuf\resolver\server.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="examples\protobuf\rpc\client.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="examples\protobuf\rpc\server.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="examples\protobuf\rpcbalancer\balancer.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="examples\protobuf\rpcbalancer\balancer_raw.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="examples\protobuf\rpcbench\client.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="examples\protobuf\rpcbench\server.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="examples\roundtrip\roundtrip.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="examples\roundtrip\roundtrip_udp.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="examples\shorturl\shorturl.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="examples\simple\allinone\allinone.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="examples\simple\chargen\chargen.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="examples\simple\chargen\main.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="examples\simple\chargenclient\chargenclient.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="examples\simple\daytime\daytime.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="examples\simple\daytime\main.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="examples\simple\discard\discard.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="examples\simple\discard\main.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="examples\simple\echo\echo.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="examples\simple\echo\main.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="examples\simple\time\main.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="examples\simple\time\time.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="examples\simple\timeclient\timeclient.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="examples\socks4a\balancer.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="examples\socks4a\socks4a.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="examples\socks4a\tcprelay.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="examples\sudoku\batch.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="examples\sudoku\loadtest.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="examples\sudoku\pipeline.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="examples\sudoku\server_basic.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="examples\sudoku\server_hybrid.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="examples\sudoku\server_multiloop.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="examples\sudoku\server_prod.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="examples\sudoku\server_threadpool.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="examples\sudoku\stat_unittest.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="examples\sudoku\sudoku.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="examples\twisted\finger\finger01.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="examples\twisted\finger\finger02.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="examples\twisted\finger\finger03.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="examples\twisted\finger\finger04.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="examples\twisted\finger\finger05.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="examples\twisted\finger\finger06.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="examples\twisted\finger\finger07.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="examples\wordcount\hasher.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="examples\wordcount\receiver.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="examples\zeromq\local_lat.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="examples\zeromq\remote_lat.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="muduo\base\AsyncLogging.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="muduo\base\Condition.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="muduo\base\CountDownLatch.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="muduo\base\Date.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="muduo\base\Exception.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="muduo\base\FileUtil.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="muduo\base\LogFile.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="muduo\base\Logging.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="muduo\base\LogStream.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="muduo\base\ProcessInfo.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="muduo\base\Thread.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="muduo\base\ThreadPool.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="muduo\base\Timestamp.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="muduo\base\TimeZone.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="muduo\base\tests\AsyncLogging_test.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="muduo\base\tests\Atomic_unittest.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="muduo\base\tests\BlockingQueue_bench.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="muduo\base\tests\BlockingQueue_test.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="muduo\base\tests\BoundedBlockingQueue_test.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="muduo\base\tests\Date_unittest.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="muduo\base\tests\Exception_test.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="muduo\base\tests\FileUtil_test.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="muduo\base\tests\Fork_test.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="muduo\base\tests\GzipFile_test.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="muduo\base\tests\LogFile_test.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="muduo\base\tests\Logging_test.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="muduo\base\tests\LogStream_bench.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="muduo\base\tests\LogStream_test.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="muduo\base\tests\Mutex_test.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="muduo\base\tests\ProcessInfo_test.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="muduo\base\tests\SingletonThreadLocal_test.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="muduo\base\tests\Singleton_test.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="muduo\base\tests\ThreadLocalSingleton_test.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="muduo\base\tests\ThreadLocal_test.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="muduo\base\tests\ThreadPool_test.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="muduo\base\tests\Thread_bench.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="muduo\base\tests\Thread_test.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="muduo\base\tests\Timestamp_unittest.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="muduo\base\tests\TimeZone_unittest.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="muduo\net\Acceptor.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="muduo\net\boilerplate.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="muduo\net\Buffer.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="muduo\net\Channel.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="muduo\net\Connector.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="muduo\net\EventLoop.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="muduo\net\EventLoopThread.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="muduo\net\EventLoopThreadPool.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="muduo\net\InetAddress.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="muduo\net\Poller.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="muduo\net\Socket.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="muduo\net\SocketsOps.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="muduo\net\TcpClient.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="muduo\net\TcpConnection.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="muduo\net\TcpServer.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="muduo\net\Timer.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="muduo\net\TimerQueue.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="muduo\net\http\HttpContext.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="muduo\net\http\HttpResponse.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="muduo\net\http\HttpServer.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="muduo\net\http\tests\HttpRequest_unittest.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="muduo\net\http\tests\HttpServer_test.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="muduo\net\inspect\Inspector.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="muduo\net\inspect\PerformanceInspector.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="muduo\net\inspect\ProcessInspector.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="muduo\net\inspect\SystemInspector.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="muduo\net\inspect\tests\Inspector_test.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="muduo\net\poller\DefaultPoller.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="muduo\net\poller\EPollPoller.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="muduo\net\poller\PollPoller.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="muduo\net\protobuf\ProtobufCodecLite.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="muduo\net\protorpc\RpcChannel.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="muduo\net\protorpc\RpcCodec.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="muduo\net\protorpc\RpcCodec_test.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="muduo\net\protorpc\RpcServer.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="muduo\net\tests\Buffer_unittest.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="muduo\net\tests\Channel_test.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="muduo\net\tests\EchoClient_unittest.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="muduo\net\tests\EchoServer_unittest.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="muduo\net\tests\EventLoopThreadPool_unittest.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="muduo\net\tests\EventLoopThread_unittest.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="muduo\net\tests\EventLoop_unittest.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="muduo\net\tests\InetAddress_unittest.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="muduo\net\tests\TcpClient_reg1.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="muduo\net\tests\TcpClient_reg2.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="muduo\net\tests\TcpClient_reg3.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="muduo\net\tests\TimerQueue_unittest.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="muduo\net\tests\ZlibStream_unittest.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="contrib\hiredis\Hiredis.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="contrib\thrift\ThriftConnection.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="contrib\thrift\ThriftServer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="examples\ace\ttcp\common.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="examples\asio\chat\codec.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="examples\cdns\Resolver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="examples\curl\Curl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="examples\fastcgi\fastcgi.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="examples\hub\codec.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="examples\hub\pubsub.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="examples\idleconnection\echo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="examples\maxconnection\echo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="examples\memcached\server\Item.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="examples\memcached\server\MemcacheServer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="examples\memcached\server\Session.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="examples\procmon\plot.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="examples\protobuf\codec\codec.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="examples\protobuf\codec\dispatcher.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="examples\protobuf\codec\dispatcher_lite.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="examples\simple\chargen\chargen.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="examples\simple\daytime\daytime.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="examples\simple\discard\discard.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="examples\simple\echo\echo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="examples\simple\time\time.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="examples\socks4a\tunnel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="examples\sudoku\percentile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="examples\sudoku\stat.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="examples\sudoku\sudoku.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="examples\wordcount\hash.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="muduo\base\AsyncLogging.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="muduo\base\Atomic.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="muduo\base\BlockingQueue.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="muduo\base\BoundedBlockingQueue.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="muduo\base\Condition.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="muduo\base\copyable.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="muduo\base\CountDownLatch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="muduo\base\CurrentThread.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="muduo\base\Date.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="muduo\base\Exception.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="muduo\base\FileUtil.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="muduo\base\GzipFile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="muduo\base\LogFile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="muduo\base\Logging.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="muduo\base\LogStream.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="muduo\base\Mutex.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="muduo\base\ProcessInfo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="muduo\base\Singleton.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="muduo\base\StringPiece.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="muduo\base\Thread.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="muduo\base\ThreadLocal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="muduo\base\ThreadLocalSingleton.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="muduo\base\ThreadPool.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="muduo\base\Timestamp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="muduo\base\TimeZone.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="muduo\base\Types.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="muduo\base\WeakCallback.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="muduo\net\Acceptor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="muduo\net\boilerplate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="muduo\net\Buffer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="muduo\net\Callbacks.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="muduo\net\Channel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="muduo\net\Connector.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="muduo\net\Endian.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="muduo\net\EventLoop.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="muduo\net\EventLoopThread.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="muduo\net\EventLoopThreadPool.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="muduo\net\InetAddress.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="muduo\net\Poller.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="muduo\net\Socket.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="muduo\net\SocketsOps.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="muduo\net\TcpClient.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="muduo\net\TcpConnection.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="muduo\net\TcpServer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="muduo\net\Timer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="muduo\net\TimerId.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="muduo\net\TimerQueue.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="muduo\net\ZlibStream.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="muduo\net\http\HttpContext.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="muduo\net\http\HttpRequest.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="muduo\net\http\HttpResponse.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="muduo\net\http\HttpServer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="muduo\net\inspect\Inspector.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="muduo\net\inspect\PerformanceInspector.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="muduo\net\inspect\ProcessInspector.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="muduo\net\inspect\SystemInspector.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="muduo\net\poller\EPollPoller.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="muduo\net\poller\PollPoller.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="muduo\net\protobuf\BufferStream.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="muduo\net\protobuf\ProtobufCodecLite.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="muduo\net\protorpc\google-inl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="muduo\net\protorpc\RpcChannel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="muduo\net\protorpc\RpcCodec.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="muduo\net\protorpc\RpcServer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
